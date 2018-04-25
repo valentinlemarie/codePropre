@@ -2,7 +2,7 @@ package demeter.corrige;
 
 public class Customer {
 	private Wallet wallet;
-
+	
 	public Customer() {
 
 	}

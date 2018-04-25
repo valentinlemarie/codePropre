@@ -2,7 +2,7 @@ package ex1;
 
 import java.util.Date;
 
-public class entreprise {
+public class Entreprise {
 
 	public int Siret;
 	public String Nom;
@@ -11,8 +11,11 @@ public class entreprise {
 	
 	public static final int capitalMax = 3000000;
 	
-	public void Afficher_statut(){
-		
+	/*
+	 * affiche le status de l'Objet entreprise
+	 */
+	public void Statut(){
+		System.out.println(this.toString());
 	}
 	
 }
